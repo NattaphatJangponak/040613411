@@ -1,0 +1,282 @@
+@font-face {
+  font-family: KrubHeader; /* ชื่อที่คุณต้องการกำหนดให้กับฟอนต์ */
+  src: url(../font/Krub/Krub-SemiBoldItalic.ttf) format("truetype"); /* URL ของไฟล์ TTF */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Krub; /* ชื่อที่คุณต้องการกำหนดให้กับฟอนต์ */
+  src: url(../font/Krub/Krub-Regular.ttf) format("truetype"); /* URL ของไฟล์ TTF */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: KrubSub; /* ชื่อที่คุณต้องการกำหนดให้กับฟอนต์ */
+  src: url(../font/Krub/Krub-Medium.ttf) format("truetype"); /* URL ของไฟล์ TTF */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Krub, Arial, sans-serif; /* ใช้ฟอนต์ที่กำหนดหากฟอนต์ต้นฉบับไม่พร้อมใช้งาน */
+}
+.header-text {
+  font-family: KrubHeader, Arial, sans-serif;
+  font-size: 40px;
+}
+.sub-text {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: rgb(26, 186, 34);
+}
+hr.style-seven {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.carousel-item img {
+  width: 612px;
+  height: 306px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+#img-flower {
+  /* Add image styles here */
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  opacity: 0;
+  border-radius: 50% 20% / 10% 40%;
+  animation: fadeImage 1s ease-in-out forwards;
+}
+
+@keyframes fadeImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.text-mar {
+  margin-top: 20px;
+  position: relative;
+  left: 70px;
+}
+.text-mar2 {
+  margin-top: 30px;
+}
+
+/* card */
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+  &:before {
+    content: "";
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  &:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 0.5em;
+    line-height: 1.5em;
+
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+}
+
+/* card */
+.card-title {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 20px;
+}
+.card-subtext {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 15px;
+}
+.card-text {
+  font-size: 13px;
+}
+
+.modal-header {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 25px;
+}
+.modal-img-top {
+  border-radius: 0% 100% 0% 100% / 43% 75% 36% 68%;
+  width: 341px;
+  height: 281px;
+}
+
+.modal-subtext {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.re-card {
+  border-radius: 40% 10% / 10% 10%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* footer */
+
+.footer {
+  background-color: #f2f2f2;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.space {
+  margin-bottom: 20px;
+}
+
+.aspect-ratio-box {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* สัดส่วน 1:1 (100% ของความกว้าง) */
+  overflow: hidden;
+  
+}
+
+.aspect-ratio-box img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-title-size {
+  font-family: KrubSub, Arial, sans-serif;
+  font-size: 40px;
+}
+.set-card{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.posi {
+  position: relative;
+  top: 110px;
+  
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+   
+}
+.set-more-card{
+  
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+ 
+
+}
+/* footer */
+footer {
+  background: #364020;
+  background: -webkit-linear-gradient(59deg, #364020, #364020);
+  background: linear-gradient(59deg, #92A64B, #364020);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #F2D0E3;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+ 
+ 
+ 

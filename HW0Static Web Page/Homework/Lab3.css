@@ -1,0 +1,6 @@
+ol.q {list-style-type: upper-roman;}
+ol.o {list-style-type: upper-alpha;}
+ol.r {list-style-type: none;}
+ol.c {list-style-type: decimal;}
+
+div.a{display: flex;justify-content: center;}
