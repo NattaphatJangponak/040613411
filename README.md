@@ -1,11 +1,13 @@
 # 6404062620141
 ## ณัฐภัทร แจ้งโพธิ์นาค
-
+<html>
+<body>
 <div style="text-align: center;">
   <h1> **HW0 Static Web Page**</h1>
   <p>This is some centered text in the README file.</p>
 </div>
-
+</body>
+</html>
 
 ![Web capture_1](https://github.com/NattaphatJangponak/040613411/assets/81207175/370f4558-4d95-47f1-8f06-a454cf617ab9)
 ## Chapter_1
