@@ -1,7 +1,7 @@
 # 6404062620141
 ## ณัฐภัทร แจ้งโพธิ์นาค
  
-# <h1 align="center">HW0 Static Web Page</h1>
+<h1 align="center">HW0 Static Web Page</h1>
  
 
 ![Web capture_1](https://github.com/NattaphatJangponak/040613411/assets/81207175/370f4558-4d95-47f1-8f06-a454cf617ab9)
@@ -16,7 +16,7 @@
 ## Popup_page
 ![Web capture_popup](https://github.com/NattaphatJangponak/040613411/assets/81207175/9ecd8ebe-cc1c-411d-8651-49802ada238b)
 
-
+<br>
 
  _______
  
