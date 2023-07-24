@@ -1,7 +1,10 @@
 # 6404062620141
 ## ณัฐภัทร แจ้งโพธิ์นาค
-
+<center>
+ 
 # **HW0 Static Web Page**
+ 
+</center>
 ![Web capture_1](https://github.com/NattaphatJangponak/040613411/assets/81207175/370f4558-4d95-47f1-8f06-a454cf617ab9)
 ## Chapter_1
 ![Web capture_2](https://github.com/NattaphatJangponak/040613411/assets/81207175/be8c76d1-fc77-4a6b-83f0-ab8f3116bf99)
