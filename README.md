@@ -15,7 +15,9 @@
 ![Web capture_popup](https://github.com/NattaphatJangponak/040613411/assets/81207175/9ecd8ebe-cc1c-411d-8651-49802ada238b)
 
 <br>
+
  _______
+ 
 <br>
 
 # **lab1html**
@@ -35,7 +37,9 @@
  ![Lab5](https://github.com/NattaphatJangponak/040613411/assets/81207175/852ea18e-8af4-4ce2-9473-c9cc36228cdc)
  
 <br>
+
  _______
+ 
 <br>
 
 # **lab2html+php**
@@ -57,6 +61,8 @@
 ![Web capture_No4OP](https://github.com/NattaphatJangponak/040613411/assets/81207175/64dbaba5-33fe-4a40-9f7e-dd0c66991e4a)
 
 <br>
+
  _______
+ 
 <br>
 
