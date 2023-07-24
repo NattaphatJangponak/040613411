@@ -32,5 +32,21 @@ _______
 ## lab1html/no12345/Lab 5(ข้อ 5)
  ![Lab5](https://github.com/NattaphatJangponak/040613411/assets/81207175/852ea18e-8af4-4ce2-9473-c9cc36228cdc)
 
+ _______
+
+# **lab2html+php**
+
+## lab2html+php/no_1(ข้อ 1)
+![Web capture_No1](https://github.com/NattaphatJangponak/040613411/assets/81207175/d5e3c94f-d70b-4189-b44a-6e28a38c5059)
+![Ouput_web](https://github.com/NattaphatJangponak/040613411/assets/81207175/a4663090-1d1b-4145-a4ec-699e7db3715d)
+
+![Web capture_No2](https://github.com/NattaphatJangponak/040613411/assets/81207175/10812db5-057c-4916-8aa8-306b008ee952)
+![Ouput_web_No2](https://github.com/NattaphatJangponak/040613411/assets/81207175/e4a4ddb4-ab2d-41b0-acc3-ca7c3a626994)
+
+![Web capture_No3](https://github.com/NattaphatJangponak/040613411/assets/81207175/4cf2b8ce-404f-4aa5-a537-6f5b9e0b3447)
+![Web capture_No3_output](https://github.com/NattaphatJangponak/040613411/assets/81207175/a77142fa-7bc6-452c-8460-1b6a4885869d)
+
+![Web capture_No4](https://github.com/NattaphatJangponak/040613411/assets/81207175/e34b27e6-d919-4de7-ba2d-9f465f387ec3)
+![Web capture_No4OP](https://github.com/NattaphatJangponak/040613411/assets/81207175/64dbaba5-33fe-4a40-9f7e-dd0c66991e4a)
 
 
