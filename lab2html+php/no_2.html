@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+
+    <style>
+        .marginset {
+            margin-left: 10px;
+
+        }
+
+        fieldset {
+            border: 2px solid #000;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="form-echo.php" method="get">
+        <h2>แบบฟอร์มจองทัวร์</h2>
+        <fieldset>
+            <legend>
+                ข้อมูลทั่วไป
+            </legend>
+
+            <div class="marginset">
+                <label for="name">ชื่อ-สกุล:
+                    <br>
+                    <input type="text" name="full_name" placeholder="กรอกชื่อ-สกุล"
+                        pattern="^[A-Z][a-z]+\s+[A-Z][a-z]+$" required>
+                    *
+                </label>
+                <br>
+                <label for="email">Email:
+                    <br>
+                    <input type="email" name="Email">
+                    *
+                </label>
+                <br>
+                <label for="name">โทรศัพท์:
+                    <br>
+                    <input type="text" name="Phone" placeholder="กรอกชื่อ-สกุล" value="+66 " pattern="+66+\s+[0-9]{8}">
+                    *
+                </label>
+                <br>
+                <label for="add">ที่อยู่:
+                    <br>
+                    <textarea name="Address" cols="30" rows="3"></textarea>
+
+                </label>
+                <br>
+                <label for="postcode">รหัสไปรษณีย์:
+
+                    <input type="text" name="Postcode" size="6" pattern="[0-9]{5}">
+
+                </label>
+                <br>
+                <label for="postcode">รูปผู้จอง:
+
+                    <input type="file" name="Imag">
+
+                </label>
+            </div>
+        </fieldset>
+        <br>
+
+
+        <fieldset>
+            <legend>
+                ข้อมูลเข้าสู่ระบบ
+            </legend>
+
+            <div class="marginset">
+                <label for="user">Username:
+                    <br>
+                    <input type="text" name="Username" pattern="[0-9a-z_]{8,}">
+                </label>
+                <br>
+                <br>
+                <label for="pass">Password:
+                    <br>
+                    <input type="password" name="Password" pattern="{8,}">
+
+                </label>
+
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>
+                ข้อมูลทัวร์ที่ต้องการ
+            </legend>
+
+            <div class="marginset">
+                <label for="select">แพคเก็จทัวร์:
+
+                    <select name="package">
+                        <option>--select--</option>
+                        <option value="thailand">Thailand</option>
+                        <option value="japan">Japan</option>
+                        <option value="korea">Korea</option>
+                        <option value="india">India</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </label>
+                <br>
+
+
+                <label for="Package">วันที่เดินทาง:
+                    <input type="date" name="Datetravel" placeholder="dd-----yyyy">
+                </label>
+                <br>
+
+                <label for="travel">จำนวนผู้เดินทาง:
+
+                    <input type="number" name="Travel" size="4" min="1" max="10">
+
+                </label>
+                <br>
+                <label for="point_travel">เน้นการท่องเที่ยวแบบใด?:
+                    <br>
+                    <input type="checkbox" name="Shopping" value="Shopping" checked>
+                    <label for="vehicle1"> ช๊อปปิ้ง</label><br>
+                    <input type="checkbox" name="์Nature" value="์Nature">
+                    <label for="vehicle2"> ธรรมชาติ</label><br>
+                    <input type="checkbox" name="Sea" value="Sea">
+                    <label for="vehicle3"> ทะเล</label><br><br>
+
+                </label>
+                <br>
+            </div>
+        </fieldset>
+        <label for="accress">ยอมรับเงื่อนไขและข้อตกลง</label>
+        <input type="radio" name="arge" value="agree" id="agree" checked="checked">
+        <label for="agree"> I agree</label>
+        <input type="radio" name="arge" value="disagree" id="disagree" >
+        <label for="disagree"> I disagree</label>
+        <input type="submit" value="จอง">
+    </form>
+</body>
+
+</html>

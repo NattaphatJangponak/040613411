@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .to_cen {
+            margin: 20px 74px;
+
+        }
+
+        #inputsize {
+            margin: 10px 0 0 10px;
+            width: 95%;
+            min-height: 2em;
+
+            border: 1px solid #0a0a23;
+
+        }
+
+        #inputsizedate {
+            margin: 10px 0 0 10px;
+            width: 90%;
+            min-height: 2em;
+
+            border: 1px solid #0a0a23;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="form-echo.php" method="get">
+        <h1>No.1 Input type</h1>
+        <hr>
+        <div>
+            <label for="name">ชื่อเต็ม/ย่อของสาขาวิชา:
+                <input type="text" id="inputsize" name="full_name" pattern="[A-Z]{1}[a-z]+ +[A-Z]{1,6}">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="money">จำนวนเงินที่จะโอน:
+                <input type="number" id="inputsize" name="money" step="0.01" min="0">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="food">อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย:
+                <br>
+                <ol>
+                    <li>
+                        <input id="inputsize" type="text" name="food1">
+                    </li>
+                    <br>
+                    <li>
+                        <input id="inputsize" type="text" name="food2">
+                    </li>
+                    <br>
+                    <li>
+                        <input id="inputsize" type="text" name="food3">
+                    </li>
+                    <br>
+                    <li>
+                        <input id="inputsize" type="text" name="food4">
+                    </li>
+                    <br>
+                    <li>
+                        <input id="inputsize" type="text" name="food5">
+                    </li>
+                </ol>
+
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="volt">ค่าไฟฟ้า 3 เดือนที่ผ่านมา:
+                <input type="number" name="volt 3 month" id="inputsize" step="0.01" min="0">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="id card">รหัสบัตรประชาชน:
+                <input type="number" name="id card" id="inputsize" pattern="[0-9]{10}">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="name">ความพึงพอใจของหนังสือเล่มนี้:
+                <br>
+                <div class="to_cen">
+                    <input type="radio" name="satisfied" value="ดีมาก">
+                    <label for="verygood">ดีมาก</label><br>
+
+                    <input type="radio" name="satisfied" value="ดี">
+                    <label for="good">ดี</label><br>
+
+                    <input type="radio" name="satisfied" value="พอใช้">
+                    <label for="fair">พอใช้</label><br>
+
+                    <input type="radio" name="satisfied" value="ควรปรับปรุง">
+                    <label for="improve">ควรปรับปรุง</label><br>
+
+                    <input type="radio" name="satisfied" value="ต้องปรับปรุง">
+                    <label for="needimprove">ต้องปรับปรุง</label><br>
+                </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="illness">อาการป่วย:
+                <br>
+                <input type="text" name="illness" id="inputsize">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="name">ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่:
+                <br>
+                <div class="to_cen">
+                    <input type="radio" name="yes" value="ใช่">
+                    <label for="yes">ใช่</label><br>
+
+                    <input type="radio" name="no" value="ไม่">
+                    <label for="no">ไม่</label><br>
+
+                </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="pass">รหัสผ่าน:
+                <br>
+                <input type="password" name="pass" id="inputsize">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="name">เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน:
+                <div class="to_cen">
+                    <br>
+                    เวลาเริ่มเข้า:
+                    <input type="time" name="starttime" id="inputsizedate" placeholder="เวลาเริ่มเข้าเรียน">
+                    <br>
+                    เวลาสิ้นสุด:&nbsp;
+                    <input type="time" name="lasttime" id="inputsizedate" placeholder="เวลาสิ้นสุดการเรียน">
+                </div>
+            </label>
+        </div>
+        <div>
+            <label for="name">วันเวลาที่ต้องไปพบแพทย์:
+                <div class="to_cen">
+                    <br>
+                    วัน&nbsp;&nbsp;&nbsp;
+                    <input type="time" name="timeto" id="inputsizedate" placeholder="วันที่ต้องไปพบแพทย์">
+                    <br>
+                    เวลา
+                    <input type="date" name="dateto" id="inputsizedate" placeholder="เวลาที่ต้องไปพบแพทย์">
+                </div>
+            </label>
+        </div>
+        <center>
+            <input type="submit" value="Submit">
+        </center>
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
