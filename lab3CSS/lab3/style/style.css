@@ -1,0 +1,23 @@
+div {
+    display: grid;
+    justify-items: center;
+    color: brown;
+    font-size: 36px;
+}
+body {
+    background-color: lightgray;
+}
+
+a {
+    color: red;
+    margin-left: 5px;
+}
+
+p {
+    color: orange;
+
+    display: flex;
+    justify-content: center;
+
+}
+/* No2 */
