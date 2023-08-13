@@ -47,7 +47,7 @@
 <br>
 
  
-<h1 align="center">lab2html+php</h1>
+<h1 align="center">lab2Form html+php</h1>
 
 ## lab2html+php/no_1(ข้อ 1)
 ![Web capture_No1](https://github.com/NattaphatJangponak/040613411/assets/81207175/d5e3c94f-d70b-4189-b44a-6e28a38c5059)
@@ -70,4 +70,26 @@
  _______
  
 <br>
+
+<h1 align="center">lab3CSS</h1>
+
+
+## lab3-2(ข้อ 2)
+![lab3-2](https://github.com/NattaphatJangponak/040613411/assets/81207175/25f99295-5586-4c01-893a-03f1f7474842)
+
+## lab3-3(ข้อ 3)
+![lab3-3](https://github.com/NattaphatJangponak/040613411/assets/81207175/fbb30761-db51-473a-84d9-6ab33c8c1888)
+
+## lab3-4(ข้อ 4)
+![lab3-4](https://github.com/NattaphatJangponak/040613411/assets/81207175/526d17dd-02bc-493d-8b78-4c6cd95ae9d1)
+
+## lab3-5(ข้อ 5)
+![lab3-5](https://github.com/NattaphatJangponak/040613411/assets/81207175/f85c1017-336b-4521-974e-77f3ccda78a1)
+
+<br>
+
+ _______
+ 
+<br>
+
 
