@@ -47,7 +47,7 @@
 <br>
 
  
-<h1 align="center">lab2html+php</h1>
+<h1 align="center">lab2Form html+php</h1>
 
 ## lab2html+php/no_1(ข้อ 1)
 ![Web capture_No1](https://github.com/NattaphatJangponak/040613411/assets/81207175/d5e3c94f-d70b-4189-b44a-6e28a38c5059)
@@ -70,4 +70,15 @@
  _______
  
 <br>
+
+<h1 align="center">lab3CSS</h1>
+
+ 
+
+<br>
+
+ _______
+ 
+<br>
+
 
