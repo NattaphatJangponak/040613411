@@ -130,7 +130,7 @@
  
 <br>
 
-<h1 align="center">lab4Responsive+CSS</h1>
+<h1 align="center">lab5Js+Dom</h1>
 
 ## lab JS_no1,2,3(ข้อ 1,2,3 javascript)
 ![lab JS_no1,2,3](https://github.com/NattaphatJangponak/040613411/assets/81207175/ef839158-f831-4921-9aa6-466ebda3b046)
