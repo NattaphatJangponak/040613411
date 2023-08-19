@@ -129,3 +129,56 @@
  _______
  
 <br>
+
+<h1 align="center">lab4Responsive+CSS</h1>
+
+## lab JS_no1,2,3(ข้อ 1,2,3 javascript)
+![lab JS_no1,2,3](https://github.com/NattaphatJangponak/040613411/assets/81207175/ef839158-f831-4921-9aa6-466ebda3b046)
+
+## DOM hw_no1 1(ข้อ 1.1 DOM)
+![DOM hw_no1 1](https://github.com/NattaphatJangponak/040613411/assets/81207175/fef29297-0f8d-43e0-b0fc-505298e6c46b)
+
+## DOM hw_no1 2(ข้อ 1.2 DOM)
+![DOM hw_no1 2](https://github.com/NattaphatJangponak/040613411/assets/81207175/5a22655b-42c0-40d8-a740-48c80a9942d0)
+
+## DOM hw_no2(ข้อ 2 DOM)
+![DOM hw_no2](https://github.com/NattaphatJangponak/040613411/assets/81207175/9975467d-b452-4e0d-8d1f-f39763fc0eea)
+
+## labdom1(ข้อ 1 Silde_DOM)
+![labdom1](https://github.com/NattaphatJangponak/040613411/assets/81207175/aabda3dc-51ab-43c9-a002-d29df1740d95)
+
+## labdom2 1(ข้อ 2.1 Silde_DOM)
+![labdom2 1](https://github.com/NattaphatJangponak/040613411/assets/81207175/e13402e1-4629-44a5-acff-5abdee8c99b2)
+
+## labdom2 2(ข้อ 2.2 Silde_DOM)
+![labdom2 2](https://github.com/NattaphatJangponak/040613411/assets/81207175/88741420-4396-42a1-88b9-69ca4ee45cf4)
+
+## labdom2 3(ข้อ 2.3 Silde_DOM)
+![labdom2 3](https://github.com/NattaphatJangponak/040613411/assets/81207175/7daed061-fd52-49ba-8223-cec8b50005b0)
+
+## labdom2 4(ข้อ 2.4 Silde_DOM)
+![labdom2 4](https://github.com/NattaphatJangponak/040613411/assets/81207175/ff2cf6ef-11e2-4e5c-966c-f98bb5932108)
+
+## labdom3 1(ข้อ 3.1 Silde_DOM)
+![labdom3 1](https://github.com/NattaphatJangponak/040613411/assets/81207175/7452d526-ec8d-4976-afd2-dd72e7a2f542)
+
+## labdom3 2(ข้อ 3.2 Silde_DOM)
+![labdom3 2](https://github.com/NattaphatJangponak/040613411/assets/81207175/83711e83-6ec7-46e3-802c-13e63bb8e0f1)
+
+## labdom4(ข้อ 4 Silde_DOM)
+![labdom4](https://github.com/NattaphatJangponak/040613411/assets/81207175/e931ef48-2759-4cd3-9cf1-733c5f288332)
+
+## labdom5(ข้อ 5 Silde_DOM)
+![labdom5](https://github.com/NattaphatJangponak/040613411/assets/81207175/4187a3ee-92be-4386-a083-6827ed63ec0c)
+
+
+ 
+
+
+ 
+
+<br>
+
+ _______
+ 
+<br>
