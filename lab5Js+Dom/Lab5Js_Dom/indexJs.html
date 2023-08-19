@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        let student = [
+            {
+                fullname: 'นายตั้งใจ เรียนมาก',
+                age: 18,
+                year: 1,
+                gpa: 3.40,
+                help: true
+            },
+            {
+                fullname: 'นายส่งงาน ตลอดมา',
+                age: 19,
+                year: 2,
+                gpa: 3.00,
+                help: false
+            },
+            {
+                fullname: 'นางสาวใส่ใจ ดีงาม',
+                age: 20,
+                year: 3,
+                gpa: 2.90,
+                help: true
+            }
+        ]
+
+
+        let i = 0, length = student.length
+        while (i < length) {
+            if ((student[i].gpa >= 3.20) || (student[i].help == true && student[i].year >= 2 && student[i].gpa >= 2.75)) {
+                console.log(`${student[i].fullname} เกิดเมื่อ`, 2564 - student[i].age,
+                    "ได้รับทุนการศึกษา",
+                    "เนื่องจากเกรดเฉลี่ยถึงเกณฑ์และ" +
+                    (student[i].help == true
+                        ? "ช่วยงานภาควิชาด้วย"
+                        : student[i].help == false
+                            ? "ยังไม่ได้ช่วยงานภาควิชา"
+                            : "ไม่มีคนใดช่วย"))
+
+            } else {
+                console.log(`${student[i].fullname} เกิดเมื่อ`, 2564 - student[i].age,
+                    "ไม่ได้ทุนการศึกษา",
+                    "เนื่องจากเกรดเฉลี่ยไม่ถึงเกณฑ์และ" +
+                    (student[i].help == true
+                        ? "ช่วยงานภาควิชาด้วย"
+                        : student[i].help == false
+                            ? "ยังไม่ได้ช่วยงานภาควิชา"
+                            : "ไม่มีคนใดช่วย"))
+            }
+            i++
+        }
+
+
+        let j = 0, length2 = student.length
+
+        while (j < length2) {
+            if ((student[j].gpa >= 3.20) || (student[j].help == true && student[j].year >= 2 && student[j].gpa >= 2.75)) {
+                console.log(`ชั้นปีที่ ${student[j].year}` + "\n", student[j].fullname, "เนื่องจากเกรดเฉลี่ยถึงเกณฑ์และ" + (student[j].help == true
+                    ? "ยังช่วยงานภาควิชาด้วย"
+                    : student[j].help == false
+                        ? "ยังไม่ได้ช่วยงานภาควิชา"
+                        : "ไม่มีคนใดช่วย"))
+
+            } else {
+                console.log(`ชั้นปีที่ ${student[j].year}` + "\n", "ไม่มี")
+            }
+            j++
+        }
+    </script>
+
+</head>
+
+<body>
+    <p>test</p>
+
+</body>
+
+</html>

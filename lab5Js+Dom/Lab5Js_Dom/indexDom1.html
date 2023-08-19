@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script>
+        function checkPassword() {
+            // เพิมการทํางานที ่ นี่ ่
+            var err = document.getElementById("errormsg");
+            var passInput = document.getElementById("pass1").value;
+            var repassInput = document.getElementById("pass2").value;
+            if(passInput==repassInput){
+                err.innerText ="Correct";
+                err.style.color = "green";
+            }else{
+                err.innerText ="Incorrect";
+                err.style.color = "red";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Register</h1>
+    Username: <input type="text"><br>
+    Password: <input type="text" id="pass1"><br>
+    Re-type Password: <input type="text" id="pass2"><br>
+    <input type="submit" onclick="checkPassword()">
+    <div id="errormsg"></div>
+</body>
+
+</html>

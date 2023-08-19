@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function plus(){
+            var inputA = parseFloat(document.getElementById("a").value);  
+            var inputB = parseFloat(document.getElementById("b").value);  
+            var inputRes = document.getElementById("res");  
+            
+            var result = inputA + inputB;  
+            inputRes.value = result;  
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="a"> + 
+        <input type="text" id="b"> = 
+        <input type="text" id="res">
+        <input type="button" value="Go Go" onclick="plus()"><br><br>
+    </form>
+</body>
+</html>

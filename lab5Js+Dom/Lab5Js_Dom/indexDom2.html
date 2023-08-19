@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .green-cursor {
+            caret-color: green;
+        }
+    </style>
+    <script>
+        function changeColor(inputId) {
+            var inputElement = document.getElementById(inputId);
+            inputElement.style.color = 'green';
+            inputElement.classList.add('green-cursor');
+        }
+    </script>
+</head>
+
+<body>
+
+    Name: <input type="text" id="name" onblur="changeColor('name')"><br>
+    Age: <input type="text" id="age" onblur="changeColor('age')"><br>
+    Birthdate: <input type="text" id="birthdate" onblur="changeColor('birthdate')"><br>
+
+</body>
+
+</html>
