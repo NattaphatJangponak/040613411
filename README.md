@@ -93,3 +93,39 @@
 <br>
 
 
+<h1 align="center">lab4Responsive+CSS</h1>
+
+## lab4-1(ข้อ 1)
+![lab4-1](https://github.com/NattaphatJangponak/040613411/assets/81207175/93d5eddc-0603-4786-b17a-8dab654a0efe)
+
+## lab4-2(ข้อ 2)
+![lab4-2](https://github.com/NattaphatJangponak/040613411/assets/81207175/0795a8ef-e6b4-4f8f-9b3e-d8e71216b233)
+
+## lab4-3_1(ข้อ 3.1)
+![lab4-3 1](https://github.com/NattaphatJangponak/040613411/assets/81207175/0eee2dea-4ff6-4311-a575-1100813631b3)
+
+## lab4-3_2(ข้อ 3.2)
+![lab4-3 2](https://github.com/NattaphatJangponak/040613411/assets/81207175/5fa04976-e6f4-4620-a17b-f273aa3c2de8)
+
+## lab4-4(ข้อ 4)
+![lab4-4](https://github.com/NattaphatJangponak/040613411/assets/81207175/a3bbf6a0-fc7d-4a40-a84b-97f2ba91600e)
+
+## lab4-5(ข้อ 5)
+![lab4-5](https://github.com/NattaphatJangponak/040613411/assets/81207175/3ef58c00-09c3-4b9b-96f5-3647986363c4)
+
+## lab4-5(ข้อ 5 responsive)
+![lab4-5res](https://github.com/NattaphatJangponak/040613411/assets/81207175/9f6e8f92-c5a8-4607-94a7-f0eb8986b046)
+
+## lab4-6,7(ข้อ 6,7)
+![lab4-6,7 result Flex](https://github.com/NattaphatJangponak/040613411/assets/81207175/57c0124c-e029-495e-9834-c71f62ba5f01)
+![lab4-6,7 result2 Flex](https://github.com/NattaphatJangponak/040613411/assets/81207175/6c0cb9e9-ed10-40cc-aefd-aae0fffa7501)
+![lab4-7code  Flex](https://github.com/NattaphatJangponak/040613411/assets/81207175/a3b4967a-cbc4-457f-83fc-c89bf457acb5)
+
+
+ 
+
+<br>
+
+ _______
+ 
+<br>
