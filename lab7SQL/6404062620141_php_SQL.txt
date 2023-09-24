@@ -1,0 +1,58 @@
+----------WORKSHOP-------------
+Workshop 2/7 : Import file
+Workshop 3/7 : SELECT name,mobile,email FROM 'member';
+Workshop 4/7 : SELECT pname,price FROM product 
+		WHERE price >= 500 AND price < 1000;
+Workshop 5/7 : SELECT * FROM member 
+		WHERE name LIKE 'บ%';
+Workshop 6/7 : SELECT * FROM member 
+		WHERE email LIKE '%gmail%' 
+		ORDER BY username;
+Workshop 7/7 : SELECT name,orders.ord_date FROM member 
+		INNER JOIN orders ON member.username = orders.username
+
+------------LAB 7--------------
+1.SELECT * FROM student ORDER BY std_id;
+
+2.SELECT std_id,std_name FROM student;
+
+3.SELECT * FROM student WHERE province = 'ขอนแก่น';
+
+4.SELECT course.course_id,course.title,course.credit FROM register 
+	INNER JOIN course ON register.course_id = course.course_id
+	WHERE std_id = '5001100348';
+
+5.SELECT register.std_id,SUM(course.credit) FROM register 
+	INNER JOIN course ON register.course_id = course.course_id 
+	GROUP BY std_id;
+
+7.SELECT * FROM member INNER JOIN orders ON member.username = orders.username;
+
+8.SELECT name,ord_date ,SUM(item.quantity*product.price) mul FROM member 
+	INNER JOIN orders ON member.username = orders.username 
+	INNER JOIN item ON orders.ord_id = item.ord_id 
+	INNER JOIN product ON product.pid = item.pid 
+	GROUP BY ord_date;
+
+9.SELECT pname,pdetail,SUM(item.quantity) user_buy FROM product
+	INNER JOIN item ON product.pid = item.pid 
+	GROUP BY pname;
+10.SELECT pname,ord_date FROM product 
+	INNER JOIN item on product.pid = item.pid 
+	INNER JOIN orders on item.ord_id = orders.ord_id;
+
+11.SELECT pname,SUM(price*item.quantity) from product 
+	INNER JOIN item ON product.pid = item.pid 
+	GROUP BY product.pid;
+
+12.SELECT name,SUM(price*item.quantity) bath FROM member 
+	INNER JOIN orders on member.username = orders.username 
+	INNER JOIN item on orders.ord_id = item.ord_id 
+	INNER JOIN product on item.pid = product.pid 
+	GROUP BY member username;
+
+13.SELECT ord_date,SUM(item.quantity*product.price) res FROM orders 
+	INNER JOIN item on orders.ord_id = item.ord_id 
+	INNER JOIN product on item.pid = product.pid 
+	GROUP BY ord_date;
+
