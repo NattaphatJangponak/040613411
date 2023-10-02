@@ -14,14 +14,15 @@ $row = $stmt->fetch(); // 4. ดึงผลลัพธ์ (เนื่อง�
 </head>
 
 <body>
-    <form action="edit-member9.php" method="post">
+    <form action="edit-member9.php" method="post" enctype="multipart/form-data"> 
         <input type="hidden" name="username" value="<?= $row["username"] ?>"><br>
-        password : <input type="password" name="password"><?= $row["password"] ?><br>
+        password : <input type="text" name="password" value="<?= $row["password"] ?>"><br>
         name : <input type="text" name="name" value="<?= $row["name"] ?>"><br>
-        address : <textarea name="address" rows="3" cols="40"><?= $row["address"] ?></textarea><br>
+        address : <input type="text" name="address" value="<?= $row["address"] ?>"><br>
         mobile : <input type="text" name="mobile" value="<?= $row["mobile"] ?>"><br>
         email : <input type="text" name="email" value="<?= $row["email"] ?>"><br>
-        <input type="submit" value="แก้ไขรายละเอียดสมาชิก">
+        picture : <input type="file" name="image" id="image"><br>
+        <input type="submit" value="แก้ไขรายละเอียดสมาชิก ">
     </form>
 </body>
 
