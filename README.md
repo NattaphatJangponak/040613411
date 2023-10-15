@@ -238,6 +238,98 @@
 ![lab7No13](https://github.com/NattaphatJangponak/040613411/assets/81207175/d80161c2-ab9d-43b1-b738-0f8ab7f52d05)
 
 
+
+<br>
+
+ _______
+ 
+<br>
+<h1 align="center">Lab8+9DB_connection</h1>
+
+
+## workshop1 (ข้อ 1 Lab8 DB Connection)
+![workshop1](https://github.com/NattaphatJangponak/040613411/assets/81207175/24819997-7d7b-4d98-9d27-64164863d779)
+
+## workshop2 (ข้อ 2 Lab8 DB Connection)
+![workshop2](https://github.com/NattaphatJangponak/040613411/assets/81207175/5f462143-39f0-4ad4-a702-34974c12961d)
+
+
+## workshop3 (ข้อ 3 Lab8 DB Connection)
+![workshop3](https://github.com/NattaphatJangponak/040613411/assets/81207175/0b292bb7-81e5-4acd-aa5d-f00262d5a608)
+
+<br>
+
+## workshop4 (ข้อ 4 Lab8 DB Connection)
+![workshop4](https://github.com/NattaphatJangponak/040613411/assets/81207175/d65d2abc-7f2c-4ad6-b36f-92673e53961e)
+
+
+## workshop5 (ข้อ 5 Lab9 DB Connection)
+![workshop5](https://github.com/NattaphatJangponak/040613411/assets/81207175/bccfa4cb-5e59-4d15-80b1-078f87708f0d)
+
+## workshop6 (ข้อ 6 Lab9 DB Connection)
+![workshop6 delete](https://github.com/NattaphatJangponak/040613411/assets/81207175/b836cee2-daec-4e3f-91fe-ccbfb94d4666)
+
+## workshop7 (ข้อ 7 Lab9 DB Connection)
+![workshop7](https://github.com/NattaphatJangponak/040613411/assets/81207175/732ac511-3817-4b8f-9b06-7491ba098c32)
+
+## workshop7result (ข้อ 7 ผลลัพท์ Lab9 DB Connection)
+![workshop7result](https://github.com/NattaphatJangponak/040613411/assets/81207175/85d547cb-4a91-4ff7-b207-f55a5e8fbf53)
+
+## workshop8 (ข้อ 8 Lab9 DB Connection)
+![workshop8](https://github.com/NattaphatJangponak/040613411/assets/81207175/0ffb5204-3f7c-4d88-a3e4-7221597e7b05)
+
+## workshop8result (ข้อ 8 ผลลัพท์ Lab9 DB Connection)
+![workshop8result](https://github.com/NattaphatJangponak/040613411/assets/81207175/2f18d02d-25a3-447d-98ba-f2cee9b02398)
+
+## workshop9 (ข้อ 9 Lab9 DB Connection)
+![workshop9](https://github.com/NattaphatJangponak/040613411/assets/81207175/707c28d4-7ffe-4ef6-916e-c9c358a502ec)
+
+## workshop9 (ข้อ 9 หน้าแก้ไข Lab9 DB Connection)
+![workshop9edit](https://github.com/NattaphatJangponak/040613411/assets/81207175/fd918dad-b423-4333-b923-f7563331cb6e)
+
+## workshop9result (ข้อ 9 ผลลัพท์ Lab9 DB Connection)
+![workshop9result](https://github.com/NattaphatJangponak/040613411/assets/81207175/ee7b3f23-f24e-40eb-a43c-2bba696c0a95)
+
+
+ 
+<br>
+
+ _______
+ 
+<br>
+
+
+
+
+<h1 align="center">Lab 10 Cookies & Session</h1>
+
+ ## no_1 (ข้อ 1 หน้า user-home.php Lab 10 Cookies & Session)
+![no_1](https://github.com/NattaphatJangponak/040613411/assets/81207175/ade500a2-1eed-464b-a519-a95924464589)
+
+ ## no_2 (ข้อ 2 หน้า user-home.php Lab 10 Cookies & Session)
+![no_2](https://github.com/NattaphatJangponak/040613411/assets/81207175/6b9be841-ba22-41b5-97d1-cb9632ce273d)
+
+ ## no_3 (ข้อ 3 หน้า phpMyadmin ในตาราง member Lab 10 Cookies & Session)
+![no_3](https://github.com/NattaphatJangponak/040613411/assets/81207175/aaecfcd5-1d98-47ee-85c9-0dba362fd7f2)
+
+ ## no_4 (ข้อ 4 หน้า phpMyadmin ในตาราง member Lab 10 Cookies & Session)
+![no_4](https://github.com/NattaphatJangponak/040613411/assets/81207175/e2879a6b-f66e-427a-9474-7ce8f2761836)
+
+ ## no_4have_order (ข้อ 4 ต้องการดู order Lab 10 Cookies & Session)
+![no_4have_order](https://github.com/NattaphatJangponak/040613411/assets/81207175/26876603-68d6-4038-b79f-7cdbaa841905)
+
+ ## no_4have_order (ข้อ 4 ดักหน้าที่ไม่มี order Lab 10 Cookies & Session)
+![no_4no_order](https://github.com/NattaphatJangponak/040613411/assets/81207175/25247498-b81f-4783-ab00-f22859c4bd58)
+
+ ## no_5 (ข้อ 5 Lab 10 Cookies & Session)
+![no_5](https://github.com/NattaphatJangponak/040613411/assets/81207175/5e492d9c-3d44-478e-8ae0-e39810e542b4)
+
+ ## no_5 (ข้อ 5 ผลลัพท์ Lab 10 Cookies & Session)
+![no_5res](https://github.com/NattaphatJangponak/040613411/assets/81207175/b30d7fd4-a7b6-4125-bb86-3c9f42ab01e6)
+
+
+ 
+ 
 <br>
 
  _______
